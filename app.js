@@ -2,7 +2,7 @@ const api = `AIzaSyAGnHKoY4pe3ZXjNuvJyL2fRqAWbMUescQ`;
 const output = document.querySelector(".output");
 const searchTerm = document.querySelector("input");
 const btn = document.querySelector("button");
-searchTerm.setAttribute("value", "test");
+searchTerm.setAttribute("value", "");
 btn.addEventListener("click", ySearch);
 
 function ySearch(e) {
